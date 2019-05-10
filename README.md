@@ -18,6 +18,7 @@
 Data source: [Cisco real-world telemetry anomaly dataset](https://github.com/cisco-ie/telemetry) which includes timeseries of 85 signals from 12 nodes under 0 to 1Tbps traffic of Blue Ray/Youtube4K movie streaming, skype video calls and other activities. BGP Clear events from dataset 2, 3, 5, 6 are used for modeling for this work.
 
 There are three notebooks in this repository:
+
 - [Exploratory Analysis](./cisco_telemetry_eda_20190326.ipynb)
 - [Data Preprocessing](./cisco_telemetry_data_preprocessing_20190401.ipynb)
 - [Modeling](./cisco_telemetry_rnn_modeling_20190401.ipynb)
